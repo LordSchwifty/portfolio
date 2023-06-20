@@ -14,7 +14,7 @@ class App extends Component {
         {title: 'Rancid Tomatillos', type: 'Collaboration', time: '25 hours', stack: 'React, HTML, CSS, Javascript, Cypress, Router', info: 'Created a movie ratings web app that allows the user to read and view ratings of recently released flicks.', github: 'https://github.com/LordSchwifty/rancid-tomatillos', deployed: 'https://lordschwifty.github.io/rancid-tomatillos/' }
       ]
   }
-
+}  
   render(){
     return (
       <div className="App">
@@ -26,7 +26,7 @@ class App extends Component {
         </main>
       </div>
     )
-  }
+  };
 }
 
 export default App;
