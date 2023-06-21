@@ -5,6 +5,7 @@
     border: 1vh solid antiquewhite 
 } */
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
 
 .intro-container {
     background-image: url(../Images/bg2.png);
@@ -43,10 +44,11 @@
 }
 
 .stack{
-    color:antiquewhite;
+    color:rgb(251, 251, 251);
     display:flex;
     align-items: center;
     flex-direction: row;
+    font-family: 'Kanit', sans-serif;
 }
 
 .okb {

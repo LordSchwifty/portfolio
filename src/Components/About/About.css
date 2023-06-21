@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
 .about-section {
+    background-image: url(../Images/anime-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
     /* background-color: rgb(7, 7, 7); */
@@ -6,14 +12,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-right:2vh solid antiquewhite;
+    border-right:2vh solid rgb(251, 249, 247);
     z-index: 1;
     margin-top: 0;
     margin-left: 0;
-    color:antiquewhite;
+    color:rgb(250, 249, 247);
+}
+.about-header{
+    font-family: 'Lobster Two', cursive;
+    font-size: 6vh;
+}
+.bio {
+    height: 30vh;
+    width: 85%;
+    font-family: 'Kanit', sans-serif;
 }
 
-.bio {
-    height: 40vh;
-    width: 60%;
+.about-box {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 115vh;
+    height:68vh;
+    background-color:rgb(8, 8, 8);
+    opacity: .8;
+    border-radius: 5vh;
+    border: 1vh solid antiquewhite;
 }
