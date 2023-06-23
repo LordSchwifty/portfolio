@@ -1,0 +1,42 @@
+.project-section {
+    background-image: url(../Images/room-bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(168, 80, 80)
+}
+
+.details-1, .details-2 {
+    height: 20vh;
+    width: 40vh;
+    background-color: black;
+    border: 1vh solid antiquewhite;
+}
+
+.details {
+    height: 33vh;
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.display {
+    height: 55vh;
+    width: 120vh;
+    background-color: black;
+    border: 1vh solid antiquewhite;
+}
+
+.display-section {
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+
+
+}

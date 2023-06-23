@@ -4,6 +4,7 @@ import Intro from '../Intro/Intro';
 import Information from '../Information/Information';
 import About from '../About/About';
 import Skills from '../Skills/Skills';
+import Projects from '../Projects/Projects';
 
 class App extends Component {
   constructor() {
@@ -22,6 +23,7 @@ class App extends Component {
           <Information />
           <Intro />
           <About />
+          <Projects />
           <Skills />
         </main>
       </div>
