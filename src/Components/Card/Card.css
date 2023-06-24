@@ -1,5 +1,9 @@
 .card {
     box-sizing: border-box;
-    border: 1vh solid black;
+    border: 1vh solid antiquewhite;
     padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5vh;
+    opacity: .8;
   }
