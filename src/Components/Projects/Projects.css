@@ -7,6 +7,14 @@
     background-color:rgb(168, 80, 80)
 }
 
+.proj-container {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+      
+}
+
 .details-1, .details-2 {
     height: 20vh;
     width: 40vh;
