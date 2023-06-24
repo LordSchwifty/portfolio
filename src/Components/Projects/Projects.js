@@ -1,5 +1,5 @@
 import { data } from '../../Assets/data';
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './Projects.css';
 import roomBg from '../Images/room-bg.jpeg'
 import Card from '../Card/Card'
@@ -9,14 +9,18 @@ import rancid1 from '../Images/rancid1.png'
 import rancid2 from '../Images/rancid2.png'
 
 
-function Projects({projects, display}){
 
-    const projCards = projects.map(project => {
+function Projects({projects}){
+const [showcase, setShowcase]= useState('')
+    const projCards = projects.map((project, i) => {
       return (
         <Card
           title={project.title}
           info={project.info}
           stack={project.stack}
+          image={project.image}
+          setShowcase={setShowcase}
+          key={i}
         />
       )
     })
@@ -28,7 +32,7 @@ function Projects({projects, display}){
       </div>
       <section className='display-section'>
         <div className='display' style={{ 
-         backgroundImage: `url(${projects[0].image})`,
+         backgroundImage: `url(${showcase})`,
          backgroundSize: 'cover',
          backgroundRepeat: 'no-repeat'
         }}

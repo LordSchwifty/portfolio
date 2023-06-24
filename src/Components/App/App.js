@@ -16,12 +16,12 @@ class App extends Component {
     super();
     this.state = {
       projects: [
-        {title: 'Book Saver', type: 'Collaboration', time: '20 hours', stack: 'React, HTML, CSS, Javascript, Cypress, Router', info: 'Developed a web application that uses the NY Times Bestsellers API to help you navigate the different lists effectively.', github: 'https://github.com/LordSchwifty/Book-Saver', deployed: 'https://trevorfitz0.github.io/Book-Saver/#/', image: rancid2 },
-        {title: 'Rancid Tomatillos', type: 'Collaboration', time: '25 hours', stack: 'React, HTML, CSS, Javascript, Cypress, Router', info: 'Created a movie ratings web app that allows the user to read and view ratings of recently released flicks.', github: 'https://github.com/LordSchwifty/rancid-tomatillos', deployed: 'https://lordschwifty.github.io/rancid-tomatillos/', image: ''}
-      ],
-      display: rancid2
+        {title: 'Book Saver', type: 'Collaboration', time: '20 hours', stack: 'React, HTML, CSS, Javascript, Cypress, Router', info: 'Developed a web application that uses the NY Times Bestsellers API to help you navigate the different lists effectively.', github: 'https://github.com/LordSchwifty/Book-Saver', deployed: 'https://trevorfitz0.github.io/Book-Saver/#/', image: book1 },
+        {title: 'Rancid Tomatillos', type: 'Collaboration', time: '25 hours', stack: 'React, HTML, CSS, Javascript, Cypress, Router', info: 'Created a movie ratings web app that allows the user to read and view ratings of recently released flicks.', github: 'https://github.com/LordSchwifty/rancid-tomatillos', deployed: 'https://lordschwifty.github.io/rancid-tomatillos/', image: rancid2}
+      ]
   }
 }  
+
   render(){
     return (
       <div className="App">
@@ -29,7 +29,7 @@ class App extends Component {
           <Information />
           <Intro />
           <About />
-          <Projects projects={this.state.projects} />
+          <Projects projects={this.state.projects}/>
           <Skills />
         </main>
       </div>
