@@ -8,7 +8,7 @@ import './Intro.css'
 
 const Intro = ( header, socials ) => {
 return (
-    <div className='intro-container'>
+    <div className='intro-container' id='home-page'>
        <section className="header">
          <img className="okb" src="https://u52e5d76onuauylpyzg7rvvvrlkz4muq4j4epjnckpbhtcgrpnwa.arweave.net/p3ROj_5zaAphb8ZN-Na1itWeMpDieEelolPCeYjRe2w" alt='Web3 PFP'></img>
          <h1 className='name'>Hi! My name is Tom</h1>

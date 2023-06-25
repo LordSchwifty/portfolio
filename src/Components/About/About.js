@@ -3,7 +3,7 @@ import './About.css';
 
 const About = ( {about} ) => {
     return (
-        <div className="about-section">
+        <div className="about-section" id='about-page'>
             <section className='about-box'>
             <h1 className="about-header">About Me</h1>
             <p className="bio">- Hi, I'm Tom, a front-end software engineer from Washington DC with a passion for creating visually stunning and user-friendly digital experiences.

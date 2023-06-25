@@ -3,7 +3,7 @@ import './App.css';
 import Intro from '../Intro/Intro';
 import Information from '../Information/Information';
 import About from '../About/About';
-import Skills from '../Skills/Skills';
+import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
 import roomBg from '../Images/room-bg.jpeg'
 import book1 from '../Images/book1.png'
@@ -30,7 +30,7 @@ class App extends Component {
           <Intro />
           <About />
           <Projects projects={this.state.projects}/>
-          <Skills />
+          <Contact />
         </main>
       </div>
     )

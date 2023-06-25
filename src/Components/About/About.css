@@ -12,7 +12,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-right:2vh solid rgb(251, 249, 247);
     z-index: 1;
     margin-top: 0;
     margin-left: 0;
@@ -37,5 +36,5 @@
     background-color:rgb(8, 8, 8);
     opacity: .8;
     border-radius: 5vh;
-    border: 1vh solid antiquewhite;
+    border: 3px solid antiquewhite;
 }
