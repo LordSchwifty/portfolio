@@ -11,12 +11,57 @@
     /* top: 0px; */
 }
 
-.about, .home, .projects, .contact {
+
+
+
+button {
+    position: relative;
+    margin: 10px 7px;
+    padding: 5px 5px;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 2px;
+    border-radius: 1px;
+    text-transform: uppercase;
+    outline: 0;
+    overflow:hidden;
+    background: none;
+    z-index: 1;
+    cursor: pointer;
+    transition:         0.08s ease-in;
+    -o-transition:      0.08s ease-in;
+    -ms-transition:     0.08s ease-in;
+    -moz-transition:    0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+  }
+
+  button {
     color:antiquewhite;
     background-color: black;
     height: 4vh;
-    width: 12vh;
-    border: 3px solid antiquewhite;
+    width: 14vh;
+    border: 2px solid antiquewhite;
     border-radius: 10px;
-    margin-left: 2vh;
 }
+  
+  button:hover {
+    color: rgb(247, 151, 6);
+  }
+  
+  button:before {
+    content: "";
+    position: absolute;
+    background: #fbfaf8;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    -webkit-transition: top 0.09s ease-in;
+  }
+  
+  button:hover:before {
+    top: 0;
+  }
+  
+ 

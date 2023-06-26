@@ -17,7 +17,7 @@ const Contact = ( {contact} ) => {
             <a className='twitter-link' target='_blank' href='https://www.twitter.com/lordschwifty'>
             <img className='twitter' src={twitter}></img>
             </a>
-            <a className='linkedin-link' target='_blank' href='https://www.linkedin.com/tom-doder'>
+            <a className='linkedin-link' target='_blank' href='https://www.linkedin.com/in/tom-doder'>
             <img className='linkedin' src={linkedin}></img>
             </a>
             <a className='github-link' target='_blank' href='https://www.github.com/lordschwifty'>
