@@ -66,4 +66,13 @@
     margin-left: 7vh;
 }
 
+.live-btn:hover {
+    background-color: whitesmoke;
+    color: black;
 
+}
+.github-btn:hover {
+    background-color: whitesmoke;
+    color: black;
+
+}

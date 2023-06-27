@@ -14,7 +14,7 @@
 
 
 
-button {
+.home-btn, .about-btn, .projects-btn, .contact-btn {
     position: relative;
     margin: 10px 7px;
     padding: 5px 5px;

@@ -11,3 +11,8 @@
     font-family: 'Kanit', sans-serif;
     margin-top: 8vh;
   }
+
+  .card:hover {
+    background-color: whitesmoke;
+    color: black;
+  }
