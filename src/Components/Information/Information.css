@@ -63,5 +63,50 @@
   button:hover:before {
     top: 0;
   }
+
+  @media only screen and (max-device-width: 600px){
+    .home-btn, .about-btn, .projects-btn, .contact-btn {
+        position: relative;
+        margin: 10px 7px;
+        padding: 5px 5px;
+        font-weight: 700;
+        font-size: 10px;
+        letter-spacing: 2px;
+        border-radius: 1px;
+        text-transform: uppercase;
+        outline: 0;
+        overflow:hidden;
+        background: none;
+        z-index: 1;
+        cursor: pointer;
+        transition:         0.08s ease-in;
+        -o-transition:      0.08s ease-in;
+        -ms-transition:     0.08s ease-in;
+        -moz-transition:    0.08s ease-in;
+        -webkit-transition: 0.08s ease-in;
+      }
+
+      button {
+        color:antiquewhite;
+        background-color: black;
+        height: 4vh;
+        width: 10vh;
+        border: 2px solid antiquewhite;
+        border-radius: 10px;
+    }
+    .information-section {
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 390px;
+        height: 7vh;
+        background-color: rgb(5, 5, 5);
+        position: fixed;
+        z-index: 1;
+        /* top: 0px; */
+    }
+
+}
   
  

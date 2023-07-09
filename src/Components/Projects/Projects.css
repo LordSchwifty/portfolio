@@ -76,3 +76,6 @@
     color: black;
 
 }
+
+@media only screen and (max-device-width: 600px){
+}
