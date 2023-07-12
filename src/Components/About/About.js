@@ -6,7 +6,7 @@ const About = ( {about} ) => {
         <div className="about-section" id='about-page'>
             <section className='about-box'>
             <h1 className="about-header">About Me</h1>
-            <p className="bio">- Hi, I'm Tom, a front-end software engineer from Washington DC with a passion for creating visually stunning and user-friendly digital experiences.
+            <p className="bio">- Hi, I'm Tom, a front-end software developer from Washington DC with a passion for creating visually stunning and user-friendly digital experiences.
             
             Before becoming a developer, I taught English overseas and gained valuable communication and interpersonal skills, along with some amazing and eye-opening experiences. I also have experience in digital art and graphic design, giving me an eye for aesthetics and attention to detail.
             
