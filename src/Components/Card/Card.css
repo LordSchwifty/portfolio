@@ -10,6 +10,9 @@
     opacity: .8;
     font-family: 'Kanit', sans-serif;
     margin-top: 8vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .card:hover {
