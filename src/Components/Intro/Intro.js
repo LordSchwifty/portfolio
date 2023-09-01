@@ -3,14 +3,14 @@ import htmlLogo from '../Images/html.png'
 import cssLogo from '../Images/css.png'
 import javascriptLogo from '../Images/javascript.png'
 import reactLogo from '../Images/react.png'
-import animeBg from '../Images/bg2.png'
+import bitGod from '../Images/bitgod1.png'
 import './Intro.css'
 
 const Intro = ( header, socials ) => {
 return (
     <div className='intro-container' id='home-page'>
        <section className="header">
-         <img className="okb" src="https://u52e5d76onuauylpyzg7rvvvrlkz4muq4j4epjnckpbhtcgrpnwa.arweave.net/p3ROj_5zaAphb8ZN-Na1itWeMpDieEelolPCeYjRe2w" alt='Web3 PFP'></img>
+         <img className="okb" src={bitGod} alt='Web3 PFP'></img>
          <h1 className='name'>Hi! My name is Tom</h1>
        </section>
        <section className='stack'>
